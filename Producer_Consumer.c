@@ -99,3 +99,72 @@ printf("\n consumer consumes item%d",x);
 x--;
 
 mutex=signal(mutex); }
+
+
+
+
+
+
+
+*************************************************
+**************************************************
+//Output
+**************************************************************
+  ***********************************************************
+
+
+
+
+1.PRODUCER
+
+2.CONSUMER
+
+3.EXIT
+
+
+
+ENTER YOUR CHOICE
+
+1
+
+producer produces the item1
+
+ENTER YOUR CHOICE
+
+2
+
+consumer consumes item1
+
+ENTER YOUR CHOICE
+
+2
+
+BUFFER IS EMPTY
+
+ENTER YOUR CHOICE
+
+1
+
+producer produces the item1
+
+ENTER YOUR CHOICE
+
+1
+
+producer produces the item2
+
+ENTER YOUR CHOICE
+
+1
+
+producer produces the item3
+
+ENTER YOUR CHOICE
+
+1
+
+BUFFER IS FULL
+
+ENTER YOUR CHOICE
+
+3
