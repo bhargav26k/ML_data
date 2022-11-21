@@ -1,3 +1,23 @@
+#include <stdio.h>
+
+#include <string.h>
+
+void main()
+
+{
+
+int et[20],at[10],n,i,j,temp,st[10],ft[10],wt[10],ta[10];
+
+int totwt=0,totta=0;
+
+float awt,ata;
+
+char pn[10][10],t[10];
+
+//clrscr();
+
+printf("Enter the number of process:");
+
 scanf("%d",&n);
 
 for(i=0; i<n; i++)
@@ -84,11 +104,20 @@ printf("\nAverage turnaroundtime is:%f",ata);
 
 }
 
+
+
+
+
+
 **********************************************************************************
 **********************************************************************************
 //Output
 **********************************************************************************
 **********************************************************************************
+
+
+
+
 Enter the number of process:5
 
 Enter process name, arrival time& execution time:P1 0 8
