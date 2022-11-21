@@ -96,3 +96,47 @@ void main()
 	
 
 }
+
+
+
+
+
+
+
+************************************************
+*************************************************
+//Output
+************************************************
+***************************************************8
+	
+
+	
+	
+ENTER THE NO. OF PAGES:-	6
+ENTER THE PAGE VALUES FOR 1 :-	5
+
+ENTER THE PAGE VALUES FOR 2 :-	4
+
+ENTER THE PAGE VALUES FOR 3 :-	7
+
+ENTER THE PAGE VALUES FOR 4 :-	5
+
+ENTER THE PAGE VALUES FOR 5 :-	9
+
+ENTER THE PAGE VALUES FOR 6 :-	3
+
+ENTER THE FRAME SIZE:-	3
+
+INITIAL PAGE VALUES =>	-1	-1	-1	
+
+MISS:	5	-1	-1	
+
+MISS:	5	4	-1	
+
+MISS:	5	4	7	
+
+HIT:	5	4	7	
+
+MISS:	9	4	7	
+
+MISS:	9
