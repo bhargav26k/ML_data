@@ -83,3 +83,35 @@ printf("\nAverage waiting time is:%f",awt);
 printf("\nAverage turnaroundtime is:%f",ata);
 
 }
+
+**********************************************************************************
+**********************************************************************************
+//Output
+**********************************************************************************
+**********************************************************************************
+Enter the number of process:5
+
+Enter process name, arrival time& execution time:P1 0 8
+
+Enter process name, arrival time& execution time:P2 1 5
+
+Enter process name, arrival time& execution time:P3 3 3
+
+Enter process name, arrival time& execution time:P4 4 1
+
+Enter process name, arrival time& execution time:P5 6 4
+
+Pname	arrivaltime	executiontime	waitingtime	tatime
+P4	    4		    1		    0		    1
+
+P3	    3		    3		    2		    5
+
+P5	    6		    4		    2		    6
+
+P2	    1		    5		   11		   16
+
+P1	    0		    8		   17		   25
+
+Average waiting time is:6.400000
+
+Average turnaroundtime is:10.600000
