@@ -151,3 +151,39 @@ printf("\n Hit ratio=%f",hr/(no_of_pages));
     return 0;
 
 }
+
+
+
+
+***********************************************
+****
+output
+***************************************************
+
+
+
+
+Enter number of frames: 3
+
+Enter number of pages: 6
+
+Enter reference string: 5 7 5 6 7 3
+
+5	-1	-1	
+5	7	-1	
+
+5	7	-1	
+
+5	7	6	
+
+5	7	6	
+
+3	7	6	
+
+
+
+Total Page Faults = 4
+
+ Total hit=2
+
+ Hit ratio=0.333333
