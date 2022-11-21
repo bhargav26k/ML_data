@@ -125,3 +125,67 @@ printf("\n Average Turn Around Time: \t%f", avg_wt);
 printf("\n Average Waiting Time: \t%f", avg_tat);
 
 }
+
+
+
+
+
+*******************************************************************
+**********************************************************************
+//output
+********************************************************************
+  *******************************************************************
+  
+  
+  
+  
+Total number of process in the system: 5
+
+Enter the Arrival and Burst time of the Process[1]
+
+ Arrival time is: 	0
+
+ Burst time is: 	3
+
+ Enter the Arrival and Burst time of the Process[2]
+
+ Arrival time is: 	2
+
+ Burst time is: 	6
+
+ Enter the Arrival and Burst time of the Process[3]
+
+ Arrival time is: 	4
+
+ Burst time is: 	4
+
+ Enter the Arrival and Burst time of the Process[4]
+
+ Arrival time is: 	6
+
+ Burst time is: 	5
+
+ Enter the Arrival and Burst time of the Process[5]
+
+ Arrival time is: 	8
+
+ Burst time is: 	2
+
+ Enter the Time Quantum for the process: 	2
+
+ Process No 		 Burst Time 		 TAT 		 Waiting Time 
+
+Process No[5] 		 2				 2			 0
+
+Process No[1] 		 3				 11			 8
+
+Process No[3] 		 4				 11			 7
+
+Process No[2] 		 6				 17			 11
+
+Process No[4] 		 5				 14			 9
+
+ Average Turn Around Time: 	7.000000
+
+ Average Waiting Time: 	11.000000  
+  
