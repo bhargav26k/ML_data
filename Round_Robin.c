@@ -115,3 +115,17 @@ Process No[4] 		 5				 14			 9
  Average Turn Around Time: 	7.000000
  Average Waiting Time: 	11.000000  
   
+
+
+Algorithms:::
+
+
+1. Organise all process according to their arrival time in the ready que
+Ii's based on the FIFO structure to execute all CPU process.
+2.Now,we path the first process from ready queues to execute it's take for a
+Fixed time allocated by each process that arrives in the queue.
+3.IF process cannot complete their interval or slot because it is stopped by 
+Other processes
+4.Similaraly the scheduler select another process from the ready queue to execute it's
+Tasks when a process finishes it's task with in time  slot.
+5.similary we repeat all the steps to execute the process until the work is finished.
