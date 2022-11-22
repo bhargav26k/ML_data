@@ -1,3 +1,5 @@
+
+
 #include <stdio.h>
 #include <string.h>
 void main()
@@ -79,3 +81,20 @@ P2	    1		    5		   11		   16
 P1	    0		    8		   17		   25
 Average waiting time is:6.400000
 Average turnaroundtime is:10.600000
+
+
+
+
+Algorithms::
+
+
+1. Sort all the processes according to the arrival time.
+2. Then select that process that has minimum arrival time and minimum burst time
+3. After completion of the process make a pool of process that arrives afterwards till the
+Completion of previous among the pool which is having minimum burst time.
+4. Take process, arrival time, burst time input from the user.
+5. Sort the process according to arival time and the process has the same arrival time then 
+Sort them having less burst time.
+6. Swap the process one above one in the order of execution.
+7. Find the turnaround time (tat) and waiting time
+8. Find average tat and average waiting time.
